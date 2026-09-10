@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Photography — Hans Kim Portfolio</title>
+  <meta name="description" content="Wildlife photography by Hans Kim.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <a href="index.html" class="site-nav__name">Hans Kim Portfolio</a>
+    <button class="site-nav__menu-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+    <ul class="site-nav__menu" id="primary-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="wildlife.html" class="is-active">Wildlife Photography</a></li>
+      <li><a href="projects/dear-harabuji.html">Dear Harabuji Documentary</a></li>
+      <li><a href="projects/video-shorts.html">Video Shorts</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li class="site-nav__related">
+        <span class="site-nav__related-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false">Related</span>
+        <div class="site-nav__related-panel">
+          <a href="https://your-mothers-gallery-website.com" target="_blank" rel="noopener">Check out my mom's gallery</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="page-header">
+      <h1>Wildlife Photography</h1>
+      <p>Sharing little bits from the outdoors.</p>
+    </div>
+
+    <!-- Stories are rendered from js/wildlife-data.js — add photos there.
+         The guide on the left and the alternating rows below are both
+         generated automatically from that file. -->
+    <div class="story-page">
+      <nav class="story-guide" id="story-guide" aria-label="Jump to a photo"></nav>
+      <div class="story-list" id="story-list"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>&copy; <span id="year"></span> Hans Kim</span>
+      <ul class="site-footer__links">
+        <li><a href="mailto:you@example.com">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/wildlife-data.js"></script>
+  <script src="js/render-stories.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

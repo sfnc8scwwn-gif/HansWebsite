@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dear Harabuji Documentary — Hans Kim Portfolio</title>
+  <meta name="description" content="Dear Harabuji, a documentary by Hans Kim.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="page-fade-in">
+
+  <nav class="site-nav">
+    <a href="../index.html" class="site-nav__name">Hans Kim Portfolio</a>
+    <button class="site-nav__menu-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+    <ul class="site-nav__menu" id="primary-menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../wildlife.html">Wildlife Photography</a></li>
+      <li><a href="dear-harabuji.html" class="is-active">Dear Harabuji Documentary</a></li>
+      <li><a href="video-shorts.html">Video Shorts</a></li>
+      <li><a href="../about.html">About Me</a></li>
+      <li class="site-nav__related">
+        <span class="site-nav__related-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false">Related</span>
+        <div class="site-nav__related-panel">
+          <a href="https://your-mothers-gallery-website.com" target="_blank" rel="noopener">Check out my mom's gallery</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="project-hero">
+      <!-- Swap for a still from the film, or a poster image -->
+      <img src="../images/projects/dear-harabuji-hero.jpg" alt="Dear Harabuji Documentary">
+    </div>
+
+    <div class="project-body">
+      <h1>Dear Harabuji</h1>
+      <p class="project-subtitle">Documentary — Year</p>
+
+      <p>Write an introduction to the documentary here: what "Dear Harabuji" is about, who it follows, and what drew you to make it. A paragraph or two is enough to set the context.</p>
+
+      <p>Continue the story here if you'd like — the making of the film, what it means to you, or where it has been shown.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>&copy; <span id="year"></span> Hans Kim</span>
+      <ul class="site-footer__links">
+        <li><a href="mailto:you@example.com">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
