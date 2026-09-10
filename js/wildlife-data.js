@@ -37,7 +37,7 @@ const wildlifeStories = [
     alt: "Replace with a description of this photograph for screen readers",
     meta: "Chesapeake & Ohio Canal National Historical Park",
     title: "Green Heron by the Pond",
-    text: "While resting by a small pond, I noticed a Green Heron land nearby. The heron’s hair is usually slicked back when it is calm, but as it moves, its feathers puff up into a mohawk-like shape. The heron also looks cool when it flies, but I was not able to adjust my camera’s focus in time to capture it in motion.",
+    text: "While resting by a small pond, I noticed a Green Heron land nearby. The heron’s hair is usually slicked back when it is calm, but as it moves, its feathers puff up into a mohawk-like shape. The heron is also beautiful in flight, but I was not able to adjust my camera’s focus in time to capture it in motion.",
   },
   {
     images: [
@@ -64,7 +64,7 @@ const wildlifeStories = [
     alt: "Replace with a description of this photograph for screen readers",
     meta: "Tuscarora State Forest",
     title: "Insects of Tuscarora",
-    text: "Driving past Amish horse-drawn carriages in Path Valley, I eventually arrived at Tuscarora State Forest. Although the bird photos didn’t turn out the way I had hoped, I did manage to capture some cool shots of an ant briefly staring at an orange fungus, as well as a Macaria Moth resting across the tall grass.",
+    text: "Driving past Amish horse-drawn carriages in Path Valley, I eventually arrived at Tuscarora State Forest. Even though the bird photos didn’t turn out the way I had hoped, I did manage to capture some cool shots of an ant briefly staring at an orange fungus, as well as a Macaria Moth resting across the tall grass.",
   },
   {
     images: [
