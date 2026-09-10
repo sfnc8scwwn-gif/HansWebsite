@@ -91,7 +91,7 @@ const wildlifeStories = [
     alt: "Replace with a description of this photograph for screen readers",
     meta: "Shenandoah National Park",
     title: "Contemplative Junco",
-    text: "I hiked Old Rag in February, which required some extra preparation. On my way up, after being passed by a pair of brothers, a small Dark-Eyed Junco landed in front of me. I quickly took out my camera and captured this photo of the junco looking up at the journey ahead.",
+    text: "I hiked Old Rag in February, which required some extra preparation. On my way up, after being passed by a pair of brothers, a small Dark-Eyed Junco landed in front of me. I quickly took out my camera and captured this photo of the junco looking at the journey ahead.",
   },
   {
     images: ["images/wildlife/1 White Tail Deer.jpg"],

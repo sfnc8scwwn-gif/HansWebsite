@@ -36,7 +36,7 @@ const previousVideos = [
     video: "../images/video/Hawaii Final 3.MP4",
     poster: "../images/video/Hawaii Final 3 poster.png",
     title: "A Hui Hou",
-    text: "My family immigrated to America and settled in Glenview, IL after my father received a scholarship to pursue a master’s degree at McCormick Theological Seminary. One of his classmates, and close family friend, leads a church in Honolulu, HI. As my parents caught up with them, my sister and I explored the rich native culture, surfed at Waikiki, and hiked the nature trails available around Oahu. We also made frequent pit stops at the various ABC Stores throughout the city. Given Hawaii’s longstanding Asian American immigrant communities, our family friend invited us to a Korean cultural expo, where I filmed various traditional dances, including Seungmu, featured in this video. Fun fact: All the snorkeling clips of fish at the end were taken with my iPhone inside a waterproof phone pouch.",
+    text: "My family immigrated to America and settled in Glenview, IL after my father received a scholarship to pursue a master’s degree at McCormick Theological Seminary. One of his classmates, and close family friend, leads a church in Honolulu, HI. As my parents caught up with them, my sister and I explored the rich native culture, surfed at Waikiki, and hiked the nature trails around Oahu. We also made frequent pit stops at the various ABC Stores throughout the city. Hawaii is also home to many longstanding Asian American immigrant communities. We were invited by our family friend to celebrate this history at a Korean cultural expo, where I filmed various traditional dances, including Seungmu, featured in this video. Fun fact: All the snorkeling clips of fish at the end were taken with my iPhone inside a waterproof phone pouch.",
     url: "",
   },
   {
@@ -57,7 +57,7 @@ const previousVideos = [
     video: "../images/video/Budapesto.M4V",
     poster: "../images/video/Budapesto poster.png",
     title: "Accross the Danube",
-    text: "When Dr. Donnelly, the Director of the University of Florida’s Center for Undergraduate Research, told me she had found funding for me to travel abroad to Spain, I was ecstatic. During my study abroad, I was able to briefly visit Budapest, Hungary. As I quietly stood by the Shoes on the Danube Bank, the historical weight stirred visceral emotions within me as I learned about the atrocities carried out by the Nazis during the Holocaust at that site. Sitting across the riverbank while recording a time-lapse of the sun setting over the Országház, I reflected on the different ways the actions and legacies of previous generations persist into the present day.",
+    text: "When Dr. Donnelly, the Director of the University of Florida’s Center for Undergraduate Research, told me she had found funding for me to travel to Spain, I was ecstatic. During my study abroad, I was able to briefly visit Budapest, Hungary. As I quietly stood by the Shoes on the Danube Bank, the historical weight stirred visceral emotions within me as I learned about the atrocities carried out by the Nazis during the Holocaust at that site. Sitting across the riverbank while recording a time-lapse of the sun setting over the Országház, I reflected on the different ways the actions and legacies of previous generations persist into the present day.",
     url: "",
   },
   {
