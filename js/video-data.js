@@ -71,7 +71,7 @@ const previousVideos = [
     video: "../images/video/5k Video Final 2.mov",
     poster: "../images/video/5k Video Final 2.png",
     title: "Reach for the Stars",
-    text: "It was by being a part of the Dream Team volunteering organization at the University of Florida that I rediscovered my love for videotography. Using an old camcorder from my parents’ house and a gimbal, I filmed a recap video for Dream Team’s annual 5K fundraiser. Although the video quality wasn’t ideal and my camera fundamentals needed some work, I had a lot of fun with this project. Watching the video and seeing all my friends leaves me nostologic for what was an incredibly formative period of my life.",
+    text: "It was by being a part of the Dream Team volunteering organization at the University of Florida that I rediscovered my love for videotography. Using an old camcorder from my parents’ house and a gimbal, I filmed a recap video for Dream Team’s annual 5K fundraiser. Although the video quality wasn’t ideal and my camera fundamentals needed some work, I had a lot of fun with this project. Watching the video and seeing my friends leaves me nostologic for what was an incredibly formative period of my life.",
     url: "",
   },
 ];
