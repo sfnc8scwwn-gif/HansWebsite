@@ -26,7 +26,7 @@ const wildlifeStories = [
     alt: "Replace with a description of this photograph for screen readers",
     meta: "Chesapeake & Ohio Canal National Historical Park",
     title: "Vultures Circling the Sky",
-    text: "Circling above the Chesapeake & Ohio Canal National Historical Park was a kettle of Turkey Vultures. As I pointed my camera toward the sky, a guy with an NIH T-shirt walked by and asked how the birds were looking. Luckily for me, the Turkey Vultures swooped down low enough for me to snag these photos.",
+    text: "Circling above the Chesapeake & Ohio Canal National Historical Park was a kettle of Turkey Vultures. Luckily for me, the vultures swooped down low enough for me to snag these photos.",
   },
   {
     images: [
@@ -37,7 +37,7 @@ const wildlifeStories = [
     alt: "Replace with a description of this photograph for screen readers",
     meta: "Chesapeake & Ohio Canal National Historical Park",
     title: "Green Heron by the Pond",
-    text: "While resting by a small pond, I noticed a Green Heron land nearby. The heron’s hair is usually slicked back when it is calm, but as it moves, its feathers puff up into a mohawk-like shape. The heron is also beautiful in flight, but I was not able to adjust my camera’s focus in time to capture it in motion.",
+    text: "While resting by a small pond, I noticed a Green Heron land nearby. The heron’s hair is usually slicked back when it is calm, but as it moves, its feathers puff up into a mohawk-like shape. The heron is also beautiful in flight, but I was not able to adjust my camera’s focus in time to fully capture it in motion.",
   },
   {
     images: [
@@ -47,7 +47,7 @@ const wildlifeStories = [
     alt: "Replace with a description of this photograph for screen readers",
     meta: "Chesapeake & Ohio Canal National Historical Park",
     title: "Butterfly Garden",
-    text: "One weekend, I visited the Chesapeake & Ohio Canal National Historical Park by the Potomac River in Maryland. I had done the Billy Goat Trail with my friends once before, but I wanted to do it again on my own. I am so glad I did. As you enter the park, there is a patch of wildflowers housing various butterfly species. I managed to get a couple mid-flight shots of the Monarch and Tiger Swallowtail Butterflies.",
+    text: "One weekend, I visited the Chesapeake & Ohio Canal National Historical Park by the Potomac River in Maryland. I had done the Billy Goat Trail with my friends once before, but I wanted to do it again on my own. As you enter the park, there is a patch of wildflowers housing various butterfly species. I managed to get a couple mid-flight shots of the Monarch and Tiger Swallowtail Butterflies.",
   },
   {
     images: ["images/wildlife/6 Pallas Rosefinch.jpg"],

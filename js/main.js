@@ -214,7 +214,7 @@ function renderStoryList(listId, guideId, entries, options) {
       escapeHtml(entry.title || "") +
       "</h2>" +
       "<p>" +
-      escapeHtml(entry.text || "") +
+      linkifyText(entry.text || "") +
       "</p>" +
       watchLink +
       "</div>";
@@ -481,4 +481,32 @@ function escapeHtml(str) {
   var div = document.createElement("div");
   div.textContent = str;
   return div.innerHTML;
+}
+
+// Lets entry.text contain inline links using a simple placeholder:
+//   {HYPERLINK(https://example.com)the words to link}
+// Everything else in the string is still escaped as plain text, so
+// this is the one safe way to add a link inside a story's paragraph
+// without writing raw HTML in video-data.js / wildlife-data.js.
+function linkifyText(str) {
+  var pattern = /\{HYPERLINK\(([^)]+)\)([^}]+)\}/g;
+  var result = "";
+  var lastIndex = 0;
+  var match;
+
+  while ((match = pattern.exec(str)) !== null) {
+    result += escapeHtml(str.slice(lastIndex, match.index));
+    var url = match[1];
+    var linkText = match[2];
+    result +=
+      '<a href="' +
+      escapeHtml(url) +
+      '" target="_blank" rel="noopener noreferrer" style="color: #999999;">' +
+      escapeHtml(linkText) +
+      "</a>";
+    lastIndex = pattern.lastIndex;
+  }
+  result += escapeHtml(str.slice(lastIndex));
+
+  return result;
 }
